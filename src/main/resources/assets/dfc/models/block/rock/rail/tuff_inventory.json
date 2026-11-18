@@ -1,6 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_rail_inventory",
+  "parent": "dfc:block/rock/rail_inventory",
   "textures": {
-    "rock": "dfc:block/rock/raw/tuff"
+    "particle": "tfc:block/rock/raw/tuff",
+    "rock": "tfc:block/rock/raw/tuff"
   }
 }

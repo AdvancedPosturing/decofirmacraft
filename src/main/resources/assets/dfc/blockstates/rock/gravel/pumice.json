@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/gravel/pumice"
+      "model": "dfc:rock/gravel/pumice"
     }
   }
 }

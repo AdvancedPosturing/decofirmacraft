@@ -1,0 +1,18 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "dfc:block/concrete/poured",
+		"particle": "dfc:block/concrete/disheveled"
+	},
+	"elements": [
+		{
+			"from": [0, 16, 15],
+			"to": [1, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 23]},
+			"faces": {
+				"up": {"uv": [0, 15, 1, 16], "texture": "#1"}
+			}
+		}
+	]
+}

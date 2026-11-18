@@ -1,6 +1,7 @@
 {
-  "parent": "tfc:block/rock/loose_metamorphic_1",
+  "parent": "tfc:block/rock/loose_sedimentary_1",
   "textures": {
+    "particle": "dfc:block/rock/raw/black_sandstone",
     "texture": "dfc:block/rock/raw/black_sandstone"
   }
 }

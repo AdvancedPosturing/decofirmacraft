@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "level=1": {
+      "model": "dfc:block/concrete1"
+    },
+    "level=2": {
+      "model": "dfc:block/concrete2"
+    },
+    "level=3": {
+      "model": "dfc:block/concrete3"
+    },
+    "level=4": {
+      "model": "dfc:block/concrete4"
+    }
+  }
+}

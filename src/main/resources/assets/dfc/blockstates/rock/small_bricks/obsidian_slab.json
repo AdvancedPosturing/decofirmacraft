@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "dfc:block/rock/small_bricks/obsidian_slab"
-    },
-    "type=top": {
-      "model": "dfc:block/rock/small_bricks/obsidian_slab_top"
+      "model": "dfc:rock/small_bricks/obsidian_slab"
     },
     "type=double": {
       "model": "dfc:block/rock/small_bricks/obsidian"
+    },
+    "type=top": {
+      "model": "dfc:rock/small_bricks/obsidian_slab_top"
     }
   }
 }

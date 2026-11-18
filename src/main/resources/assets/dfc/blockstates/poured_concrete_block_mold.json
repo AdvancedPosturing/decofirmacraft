@@ -1,0 +1,1408 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/block_mold_north"
+      },
+      "when": {
+        "north": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/block_mold_east"
+      },
+      "when": {
+        "east": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/block_mold_south"
+      },
+      "when": {
+        "south": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/block_mold_west"
+      },
+      "when": {
+        "west": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/block_mold_down"
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_center1"
+      },
+      "when": {
+        "level": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_north1"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "north": 0
+              },
+              {
+                "north": 2
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_east1"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "east": 0
+              },
+              {
+                "east": 2
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_south1"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "south": 0
+              },
+              {
+                "south": 2
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_west1"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "west": 0
+              },
+              {
+                "west": 2
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northeast1"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southeast1"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southwest1"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northwest1"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_center2"
+      },
+      "when": {
+        "level": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_north2"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "north": 0
+              },
+              {
+                "north": 2
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_east2"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "east": 0
+              },
+              {
+                "east": 2
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_south2"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "south": 0
+              },
+              {
+                "south": 2
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_west2"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "west": 0
+              },
+              {
+                "west": 2
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northeast2"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southeast2"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southwest2"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northwest2"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_center3"
+      },
+      "when": {
+        "level": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_north3"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "north": 0
+              },
+              {
+                "north": 2
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_east3"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "east": 0
+              },
+              {
+                "east": 2
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_south3"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "south": 0
+              },
+              {
+                "south": 2
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_west3"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "west": 0
+              },
+              {
+                "west": 2
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northeast3"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southeast3"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southwest3"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northwest3"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_center4"
+      },
+      "when": {
+        "level": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_north4"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "north": 0
+              },
+              {
+                "north": 2
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_east4"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "east": 0
+              },
+              {
+                "east": 2
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_south4"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "south": 0
+              },
+              {
+                "south": 2
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_west4"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "west": 0
+              },
+              {
+                "west": 2
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northeast4"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southeast4"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southwest4"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northwest4"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_center_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          },
+          {
+            "down": false
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_north_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_east_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_south_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_west_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northeast_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southeast_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "east": 0
+                  },
+                  {
+                    "east": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_southwest_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "south": 0
+                  },
+                  {
+                    "south": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "dfc:block/concrete/mold/poured_concrete_northwest_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "AND": [
+              {
+                "down": false
+              },
+              {
+                "OR": [
+                  {
+                    "north": 0
+                  },
+                  {
+                    "north": 2
+                  }
+                ]
+              },
+              {
+                "OR": [
+                  {
+                    "west": 0
+                  },
+                  {
+                    "west": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "OR": [
+              {
+                "level": 1
+              },
+              {
+                "level": 2
+              },
+              {
+                "level": 3
+              },
+              {
+                "level": 4
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "dfc:block/rock/small_bricks/ignimbrite_slab"
-    },
-    "type=top": {
-      "model": "dfc:block/rock/small_bricks/ignimbrite_slab_top"
+      "model": "dfc:rock/small_bricks/ignimbrite_slab"
     },
     "type=double": {
       "model": "dfc:block/rock/small_bricks/ignimbrite"
+    },
+    "type=top": {
+      "model": "dfc:rock/small_bricks/ignimbrite_slab_top"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "dfc:metal/trowel/bismuth_bronze",
+    "dfc:metal/trowel/black_bronze",
+    "dfc:metal/trowel/bronze",
+    "dfc:metal/trowel/copper",
+    "dfc:metal/trowel/wrought_iron",
+    "dfc:metal/trowel/steel",
+    "dfc:metal/trowel/black_steel",
+    "dfc:metal/trowel/blue_steel",
+    "dfc:metal/trowel/red_steel"
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "parent": "tfc:block/rock/loose_sedimentary_1",
+  "parent": "tfc:block/rock/loose_igneous_extrusive_1",
   "textures": {
+    "particle": "dfc:block/rock/raw/obsidian",
     "texture": "dfc:block/rock/raw/obsidian"
   }
 }

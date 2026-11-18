@@ -1,6 +1,7 @@
 {
   "parent": "tfc:block/rock/anvil",
   "textures": {
+    "particle": "dfc:block/rock/raw/ignimbrite",
     "texture": "dfc:block/rock/raw/ignimbrite"
   }
 }

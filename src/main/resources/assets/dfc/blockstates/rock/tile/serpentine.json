@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/tile/serpentine"
+      "model": "dfc:rock/tile/serpentine"
     }
   }
 }

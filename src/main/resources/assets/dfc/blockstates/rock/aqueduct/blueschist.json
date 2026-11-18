@@ -1,5 +1,4 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "multipart": [
     {
       "apply": {
@@ -7,35 +6,35 @@
       }
     },
     {
-      "when": {
-        "north": "false"
-      },
       "apply": {
         "model": "dfc:block/rock/aqueduct/blueschist/north"
+      },
+      "when": {
+        "north": "false"
       }
     },
     {
-      "when": {
-        "east": "false"
-      },
-      "apply": {
-        "model": "dfc:block/rock/aqueduct/blueschist/east"
-      }
-    },
-    {
-      "when": {
-        "south": "false"
-      },
       "apply": {
         "model": "dfc:block/rock/aqueduct/blueschist/south"
+      },
+      "when": {
+        "south": "false"
       }
     },
     {
-      "when": {
-        "west": "false"
+      "apply": {
+        "model": "dfc:block/rock/aqueduct/blueschist/east"
       },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
       "apply": {
         "model": "dfc:block/rock/aqueduct/blueschist/west"
+      },
+      "when": {
+        "west": "false"
       }
     }
   ]

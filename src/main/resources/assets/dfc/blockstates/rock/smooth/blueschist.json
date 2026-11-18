@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/smooth/blueschist"
+      "model": "dfc:rock/smooth/blueschist"
     }
   }
 }

@@ -1,14 +1,13 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "variants": {
     "type=bottom": {
-      "model": "dfc:block/rock/tile/diorite_slab"
-    },
-    "type=top": {
-      "model": "dfc:block/rock/tile/diorite_slab_top"
+      "model": "dfc:rock/tile/diorite_slab"
     },
     "type=double": {
       "model": "dfc:block/rock/tile/diorite"
+    },
+    "type=top": {
+      "model": "dfc:rock/tile/diorite_slab_top"
     }
   }
 }

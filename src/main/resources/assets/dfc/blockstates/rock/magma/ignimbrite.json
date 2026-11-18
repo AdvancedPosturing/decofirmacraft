@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/magma/ignimbrite"
+      "model": "dfc:rock/magma/ignimbrite"
     }
   }
 }

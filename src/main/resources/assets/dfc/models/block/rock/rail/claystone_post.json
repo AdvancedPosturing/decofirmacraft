@@ -1,7 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_rail_post",
+  "parent": "dfc:block/rock/rail_post",
   "textures": {
-    "rock": "tfc:block/rock/raw/claystone",
-    "particle": "tfc:block/rock/raw/claystone"
+    "particle": "tfc:block/rock/raw/claystone",
+    "rock": "tfc:block/rock/raw/claystone"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/bricks/arkose"
+      "model": "dfc:rock/bricks/arkose"
     }
   }
 }

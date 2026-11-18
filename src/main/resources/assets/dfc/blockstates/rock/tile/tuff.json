@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/tile/tuff"
+      "model": "dfc:rock/tile/tuff"
     }
   }
 }

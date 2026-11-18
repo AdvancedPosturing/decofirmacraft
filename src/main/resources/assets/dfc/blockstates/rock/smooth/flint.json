@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/smooth/flint"
+      "model": "dfc:rock/smooth/flint"
     }
   }
 }

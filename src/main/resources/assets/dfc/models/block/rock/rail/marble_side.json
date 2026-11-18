@@ -1,7 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_rail_side",
+  "parent": "dfc:block/rock/rail_side",
   "textures": {
-    "rock": "tfc:block/rock/raw/marble",
-    "particle": "tfc:block/rock/raw/marble"
+    "particle": "tfc:block/rock/raw/marble",
+    "rock": "tfc:block/rock/raw/marble"
   }
 }

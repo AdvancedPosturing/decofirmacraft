@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/smooth/travertine"
+      "model": "dfc:rock/smooth/travertine"
     }
   }
 }

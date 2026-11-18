@@ -2,6 +2,16 @@
   "replace": false,
   "values": [
     "#dfc:stones/tiles",
-    "dfc:chiseled_block"
+    "#dfc:stones/columns",
+    "#dfc:stones/pillars",
+    "#c:stones",
+    "#c:stones/smooth",
+    "#c:cobblestones/mossy",
+    "#c:cobblestones/normal",
+    "#tfc:dirt",
+    "#tfc:grass",
+    "#tfc:grass",
+    "#minecraft:stone_bricks",
+    "dfc:dynamic_chiseled_block"
   ]
 }

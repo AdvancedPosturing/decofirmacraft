@@ -1,7 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_rail_side",
+  "parent": "dfc:block/rock/rail_side",
   "textures": {
-    "rock": "dfc:block/rock/raw/blueschist",
-    "particle": "dfc:block/rock/raw/blueschist"
+    "particle": "dfc:block/rock/raw/blueschist",
+    "rock": "dfc:block/rock/raw/blueschist"
   }
 }

@@ -1,8 +1,7 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "parent": "tfc:block/aqueduct/east",
   "textures": {
-    "texture": "dfc:block/rock/bricks/travertine",
-    "particle": "dfc:block/rock/bricks/travertine"
+    "particle": "dfc:block/rock/bricks/travertine",
+    "texture": "dfc:block/rock/bricks/travertine"
   }
 }

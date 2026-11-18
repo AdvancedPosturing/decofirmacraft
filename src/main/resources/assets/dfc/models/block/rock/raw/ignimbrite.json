@@ -1,7 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "dfc:block/rock/raw/ignimbrite",
-    "particle": "dfc:block/rock/raw/ignimbrite"
+    "end": "dfc:block/rock/raw/ignimbrite",
+    "particle": "dfc:block/rock/raw/ignimbrite",
+    "side": "dfc:block/rock/raw/ignimbrite"
   }
 }

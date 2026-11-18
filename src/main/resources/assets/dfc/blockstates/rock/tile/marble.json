@@ -1,8 +1,7 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "variants": {
     "": {
-      "model": "dfc:block/rock/tile/marble"
+      "model": "dfc:rock/tile/marble"
     }
   }
 }

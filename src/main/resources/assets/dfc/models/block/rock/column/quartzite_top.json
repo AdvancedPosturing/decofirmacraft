@@ -1,7 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_column_top",
+  "parent": "dfc:block/rock/column_top",
   "textures": {
-    "rock": "dfc:block/rock/column/quartzite",
-    "particle": "tfc:block/rock/raw/quartzite"
+    "particle": "dfc:block/rock/column/quartzite",
+    "texture": "dfc:block/rock/column/quartzite"
   }
 }

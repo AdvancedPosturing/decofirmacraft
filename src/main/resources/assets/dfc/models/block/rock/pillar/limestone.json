@@ -1,8 +1,8 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "block/cube_column",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "dfc:block/rock/pillar/limestonetop",
+    "end": "dfc:block/rock/pillar/limestone_top",
+    "particle": "dfc:block/rock/pillar/limestone_top",
     "side": "dfc:block/rock/pillar/limestone"
   }
 }

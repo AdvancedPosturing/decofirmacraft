@@ -1,8 +1,8 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "block/cube_column",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "dfc:block/rock/pillar/granitetop",
+    "end": "dfc:block/rock/pillar/granite_top",
+    "particle": "dfc:block/rock/pillar/granite_top",
     "side": "dfc:block/rock/pillar/granite"
   }
 }

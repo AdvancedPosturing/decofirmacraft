@@ -1,8 +1,8 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "parent": "minecraft:block/cube_column_mirrored",
   "textures": {
-    "side": "dfc:block/rock/raw/travertine",
-    "end": "dfc:block/rock/raw/travertine_top"
+    "end": "dfc:block/rock/raw/travertine_top",
+    "particle": "dfc:block/rock/raw/travertine",
+    "side": "dfc:block/rock/raw/travertine"
   }
 }

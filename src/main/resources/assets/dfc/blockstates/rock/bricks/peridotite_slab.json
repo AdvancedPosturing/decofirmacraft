@@ -1,14 +1,13 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "variants": {
     "type=bottom": {
-      "model": "dfc:block/rock/bricks/peridotite_slab"
-    },
-    "type=top": {
-      "model": "dfc:block/rock/bricks/peridotite_slab_top"
+      "model": "dfc:rock/bricks/peridotite_slab"
     },
     "type=double": {
       "model": "dfc:block/rock/bricks/peridotite"
+    },
+    "type=top": {
+      "model": "dfc:rock/bricks/peridotite_slab_top"
     }
   }
 }

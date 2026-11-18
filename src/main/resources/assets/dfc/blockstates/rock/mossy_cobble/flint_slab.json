@@ -1,14 +1,13 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "variants": {
     "type=bottom": {
-      "model": "dfc:block/rock/mossy_cobble/flint_slab"
-    },
-    "type=top": {
-      "model": "dfc:block/rock/mossy_cobble/flint_slab_top"
+      "model": "dfc:rock/mossy_cobble/flint_slab"
     },
     "type=double": {
       "model": "dfc:block/rock/mossy_cobble/flint"
+    },
+    "type=top": {
+      "model": "dfc:rock/mossy_cobble/flint_slab_top"
     }
   }
 }

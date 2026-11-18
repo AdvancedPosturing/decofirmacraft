@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/bricks/pink_sandstone"
+      "model": "dfc:rock/bricks/pink_sandstone"
     }
   }
 }

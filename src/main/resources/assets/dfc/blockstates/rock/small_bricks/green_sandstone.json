@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/small_bricks/green_sandstone"
+      "model": "dfc:rock/small_bricks/green_sandstone"
     }
   }
 }

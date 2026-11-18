@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/bricks/soapstone"
+      "model": "dfc:rock/bricks/soapstone"
     }
   }
 }

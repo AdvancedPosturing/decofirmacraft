@@ -1,116 +1,113 @@
 {
-  "variants": {
-    "down=true,axis=z,up=true,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end"
+  "multipart": [
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_bottom"
+      },
+      "when": {
+        "down": "true"
+      }
     },
-    "down=true,axis=x,up=true,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end",
-      "y": 90
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_bottom"
+      },
+      "when": {
+        "down": "false",
+        "style": "doric|ionic|corinthian"
+      }
     },
-    "down=false,axis=z,up=true,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone_top"
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_bottom_tuscan"
+      },
+      "when": {
+        "down": "false",
+        "style": "tuscan"
+      }
     },
-    "down=false,axis=x,up=true,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone_top",
-      "y": 90
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_middle_top"
+      },
+      "when": {
+        "style": "doric|ionic",
+        "up": "true"
+      }
     },
-    "down=true,axis=z,up=false,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom"
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_middle_top_corinthian"
+      },
+      "when": {
+        "style": "corinthian",
+        "up": "true"
+      }
     },
-    "down=true,axis=x,up=false,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom",
-      "y": 90
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_middle_top_tuscan"
+      },
+      "when": {
+        "style": "tuscan",
+        "up": "true"
+      }
     },
-    "down=false,axis=z,up=false,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone"
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_top"
+      },
+      "when": {
+        "style": "doric|ionic|corinthian",
+        "up": "false"
+      }
     },
-    "down=false,axis=x,up=false,style=doric": {
-      "model": "dfc:block/rock/column/pink_sandstone",
-      "y": 90
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_center_top_tuscan"
+      },
+      "when": {
+        "style": "tuscan",
+        "up": "false"
+      }
     },
-    "down=true,axis=z,up=true,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end_ionic"
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_top"
+      },
+      "when": {
+        "style": "doric|tuscan",
+        "up": "true"
+      }
     },
-    "down=true,axis=x,up=true,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end_ionic",
-      "y": 90
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_top_ionic_x"
+      },
+      "when": {
+        "axis": "x",
+        "style": "ionic",
+        "up": "true"
+      }
     },
-    "down=false,axis=z,up=true,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone_top_ionic"
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_top_ionic_z"
+      },
+      "when": {
+        "axis": "z",
+        "style": "ionic",
+        "up": "true"
+      }
     },
-    "down=false,axis=x,up=true,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone_top_ionic",
-      "y": 90
-    },
-    "down=true,axis=z,up=false,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom"
-    },
-    "down=true,axis=x,up=false,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom",
-      "y": 90
-    },
-    "down=false,axis=z,up=false,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone"
-    },
-    "down=false,axis=x,up=false,style=ionic": {
-      "model": "dfc:block/rock/column/pink_sandstone",
-      "y": 90
-    },
-    "down=true,axis=z,up=true,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end_corinthian"
-    },
-    "down=true,axis=x,up=true,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end_corinthian",
-      "y": 90
-    },
-    "down=false,axis=z,up=true,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone_top_corinthian"
-    },
-    "down=false,axis=x,up=true,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone_top_corinthian",
-      "y": 90
-    },
-    "down=true,axis=z,up=false,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom"
-    },
-    "down=true,axis=x,up=false,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom",
-      "y": 90
-    },
-    "down=false,axis=z,up=false,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone"
-    },
-    "down=false,axis=x,up=false,style=corinthian": {
-      "model": "dfc:block/rock/column/pink_sandstone",
-      "y": 90
-    },
-    "down=true,axis=z,up=true,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end_tuscan"
-    },
-    "down=true,axis=x,up=true,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_double_end_tuscan",
-      "y": 90
-    },
-    "down=false,axis=z,up=true,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_top_tuscan"
-    },
-    "down=false,axis=x,up=true,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_top_tuscan",
-      "y": 90
-    },
-    "down=true,axis=z,up=false,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom_tuscan"
-    },
-    "down=true,axis=x,up=false,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_bottom_tuscan",
-      "y": 90
-    },
-    "down=false,axis=z,up=false,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_tuscan"
-    },
-    "down=false,axis=x,up=false,style=tuscan": {
-      "model": "dfc:block/rock/column/pink_sandstone_tuscan",
-      "y": 90
+    {
+      "apply": {
+        "model": "dfc:block/rock/column/pink_sandstone_top_corinthian"
+      },
+      "when": {
+        "style": "corinthian",
+        "up": "true"
+      }
     }
-  }
+  ]
 }

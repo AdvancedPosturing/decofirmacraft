@@ -1,7 +1,7 @@
 {
   "parent": "tfc:block/rock/spike_middle",
   "textures": {
-    "texture": "dfc:block/rock/raw/ignimbrite",
-    "particle": "dfc:block/rock/raw/ignimbrite"
+    "particle": "dfc:block/rock/raw/ignimbrite",
+    "texture": "dfc:block/rock/raw/ignimbrite"
   }
 }

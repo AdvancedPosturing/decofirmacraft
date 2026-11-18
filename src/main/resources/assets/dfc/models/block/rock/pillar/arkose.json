@@ -1,8 +1,8 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
-  "parent": "block/cube_column",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "dfc:block/rock/pillar/arkosetop",
+    "end": "dfc:block/rock/pillar/arkose_top",
+    "particle": "dfc:block/rock/pillar/arkose_top",
     "side": "dfc:block/rock/pillar/arkose"
   }
 }

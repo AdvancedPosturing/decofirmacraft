@@ -1,14 +1,13 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "variants": {
     "type=bottom": {
-      "model": "dfc:block/rock/smooth/flint_slab"
-    },
-    "type=top": {
-      "model": "dfc:block/rock/smooth/flint_slab_top"
+      "model": "dfc:rock/smooth/flint_slab"
     },
     "type=double": {
       "model": "dfc:block/rock/smooth/flint"
+    },
+    "type=top": {
+      "model": "dfc:rock/smooth/flint_slab_top"
     }
   }
 }

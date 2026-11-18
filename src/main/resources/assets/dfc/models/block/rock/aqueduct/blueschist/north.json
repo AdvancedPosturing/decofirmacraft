@@ -1,8 +1,7 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "parent": "tfc:block/aqueduct/north",
   "textures": {
-    "texture": "dfc:block/rock/bricks/blueschist",
-    "particle": "dfc:block/rock/bricks/blueschist"
+    "particle": "dfc:block/rock/bricks/blueschist",
+    "texture": "dfc:block/rock/bricks/blueschist"
   }
 }

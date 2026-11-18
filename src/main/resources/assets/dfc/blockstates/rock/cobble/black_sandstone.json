@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/cobble/black_sandstone"
+      "model": "dfc:rock/cobble/black_sandstone"
     }
   }
 }

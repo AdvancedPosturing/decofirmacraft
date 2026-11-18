@@ -1,0 +1,6 @@
+{
+  "parent": "dfc:block/rock/rail_block",
+  "textures": {
+    "rail": "dfc:block/rock/rail/andesite_straight"
+  }
+}

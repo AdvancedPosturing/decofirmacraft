@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/gravel/obsidian"
+      "model": "dfc:rock/gravel/obsidian"
     }
   }
 }

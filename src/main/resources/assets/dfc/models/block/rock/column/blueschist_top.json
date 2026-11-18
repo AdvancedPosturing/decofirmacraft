@@ -1,7 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_column_top",
+  "parent": "dfc:block/rock/column_top",
   "textures": {
-    "rock": "dfc:block/rock/column/blueschist",
-    "particle": "dfc:block/rock/raw/blueschist"
+    "particle": "dfc:block/rock/column/blueschist",
+    "texture": "dfc:block/rock/column/blueschist"
   }
 }

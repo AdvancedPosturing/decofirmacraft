@@ -1,6 +1,7 @@
 {
   "parent": "tfc:block/rock/loose_sedimentary_3",
   "textures": {
+    "particle": "dfc:block/rock/raw/arkose",
     "texture": "dfc:block/rock/raw/arkose"
   }
 }

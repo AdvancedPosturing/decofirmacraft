@@ -1,6 +1,7 @@
 {
   "parent": "tfc:block/rock/loose_metamorphic_2",
   "textures": {
+    "particle": "dfc:block/rock/raw/blueschist",
     "texture": "dfc:block/rock/raw/blueschist"
   }
 }

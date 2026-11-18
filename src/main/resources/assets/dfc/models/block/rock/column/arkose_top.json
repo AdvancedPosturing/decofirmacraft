@@ -1,7 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_column_top",
+  "parent": "dfc:block/rock/column_top",
   "textures": {
-    "rock": "dfc:block/rock/column/arkose",
-    "particle": "dfc:block/rock/raw/arkose"
+    "particle": "dfc:block/rock/column/arkose",
+    "texture": "dfc:block/rock/column/arkose"
   }
 }

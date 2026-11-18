@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/bricks/ignimbrite"
+      "model": "dfc:rock/bricks/ignimbrite"
     }
   }
 }

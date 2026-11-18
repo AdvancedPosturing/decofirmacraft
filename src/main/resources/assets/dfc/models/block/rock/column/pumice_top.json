@@ -1,7 +1,7 @@
 {
-  "parent": "dfc:block/rock/template_column_top",
+  "parent": "dfc:block/rock/column_top",
   "textures": {
-    "rock": "dfc:block/rock/column/pumice",
-    "particle": "tfc:block/rock/raw/pumice"
+    "particle": "dfc:block/rock/column/pumice",
+    "texture": "dfc:block/rock/column/pumice"
   }
 }

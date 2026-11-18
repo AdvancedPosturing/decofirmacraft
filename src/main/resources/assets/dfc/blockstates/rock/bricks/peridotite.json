@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dfc:block/rock/bricks/peridotite"
+      "model": "dfc:rock/bricks/peridotite"
     }
   }
 }

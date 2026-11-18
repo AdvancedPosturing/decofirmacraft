@@ -1,6 +1,7 @@
 {
-  "parent": "tfc:block/rock/loose_metamorphic_1",
+  "parent": "tfc:block/rock/loose_igneous_intrusive_1",
   "textures": {
+    "particle": "dfc:block/rock/raw/peridotite",
     "texture": "dfc:block/rock/raw/peridotite"
   }
 }
