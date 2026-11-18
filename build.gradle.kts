@@ -103,9 +103,20 @@ neoForge {
             jvmArguments.addAll("-XX:+IgnoreUnrecognizedVMOptions", "-XX:+AllowEnhancedClassRedefinition", "-ea")
         }
 
-        register("client") {
+        register("client1") {
             client()
             gameDirectory = file("run/client")
+
+            programArgument("--username")
+            programArgument("Advanced")
+        }
+
+        register("client2") {
+            client()
+            gameDirectory = file("run/client2")
+
+            programArgument("--username")
+            programArgument("Advanced2")
         }
 
         register("server") {
@@ -264,5 +275,9 @@ tasks {
         testLogging {
             events(TestLogEvent.PASSED, TestLogEvent.SKIPPED, TestLogEvent.FAILED)
         }
+    }
+
+    named<ProcessResources>("processResources") {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     }
 }
